@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="80dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CELCIUS"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/txt_celcius"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_konversi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="konversi"
+        android:background="#D71A60"
+        android:textColor="#fff"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KELVIN"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/txt_kelvin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="68dp"
+            android:text=""/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FAHRENHEIT"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/txt_fahrenheit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text=""/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REAMUR"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/txt_reamur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="58dp"
+            android:text=""/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_kalkulator"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KALKULATOR"
+        android:layout_marginTop="230dp"
+        android:background="#D7D61A60"
+        android:textColor="#fff"/>
+
+</LinearLayout>
